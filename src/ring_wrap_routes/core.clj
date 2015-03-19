@@ -1,4 +1,4 @@
-(ns ring-wrap-route.core
+(ns ring-wrap-routes.core
   (:require [clojure.tools.namespace.repl :refer :all]
             [ring.mock.request :as ring-mock]
             [compojure.core :refer :all]))

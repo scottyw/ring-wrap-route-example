@@ -1,6 +1,6 @@
 # ring-wrap-routes-example
 
-A quick example of Compojure's wrap-route function which can lead to the application of Ring middlewares in an unexpected order.
+A quick example of Compojure's wrap-routes function which can lead to the application of Ring middlewares in an unexpected order.
 
 ## Usage
 

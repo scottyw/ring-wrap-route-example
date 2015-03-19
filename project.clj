@@ -1,4 +1,4 @@
-(defproject ring-wrap-route-example "0.1.0-SNAPSHOT"
+(defproject ring-wrap-routes-example "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -11,4 +11,4 @@
   :repl-options {:init (do
                          (require ['clojure.tools.namespace.repl :refer :all])
                          (refresh))}
-  :main ring-wrap-route.core)
+  :main ring-wrap-routes.core)
