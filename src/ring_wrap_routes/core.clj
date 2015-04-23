@@ -20,7 +20,7 @@
     (handler req)))
 
 (defn -main []
-  (println "The middlewares are applied in th obvious order when thread-first is used")
+  (println "The middlewares are applied in the obvious order when thread-first is used")
   ((-> (-> handler1 handler1-middleware)
      top-level-middleware)
     (ring-mock/request :get "/handler1"))
