@@ -9,9 +9,9 @@ The example is self-documenting. Run with:
     lein run
     
 ## Results
-    
+```
 $ lein run
-The middlewares are applied in th obvious order when thread-first is used
+The middlewares are applied in the obvious order when thread-first is used
  - In top-level-middleware
  - In handler1-middleware
  - In handler1
@@ -27,6 +27,7 @@ wrap-routes applied only to the handler-specific middleware is the same as threa
  - In top-level-middleware
  - In handler1-middleware
  - In handler1
+```
 
 ## License
 
